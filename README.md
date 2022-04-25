@@ -15,4 +15,4 @@ Gym OpenAI provides multiple test-bed environments with real world applications 
 2. Taxi-v3
 3. BipedalWalker-v3
 
-$f(x)=y_{pred}$ 
+![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
