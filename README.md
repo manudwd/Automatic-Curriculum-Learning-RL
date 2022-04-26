@@ -1,6 +1,8 @@
 # AUTOMATED CURRICULUM LEARNING FOR REINFORCEMENT LEARNING APPLICATIONS
 
- # Environments:
+RL paradigms explored with OpenAI
+
+# Environments:
   ## Cartpole-v0/v1
 ![Cartpole](https://user-images.githubusercontent.com/56117150/165373260-3ee1b77f-51fc-4bd0-a2dd-caf79c0e0c9a.gif)
   # BipedalWalker-v3
@@ -10,7 +12,7 @@
   # MountainCar-v0
 ![Mountaincar](https://user-images.githubusercontent.com/56117150/165373163-c3b30e77-3ecf-4e8a-b9f4-7bfd85153fb4.gif)
 
- RL paradigms explored with OpenAI
+
 
 # Dependencies 
 Tensorflow >=2.7
