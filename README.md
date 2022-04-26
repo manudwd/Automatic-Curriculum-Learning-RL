@@ -39,25 +39,25 @@ The notebooks listed here implement the baseline approachs including:
     ![image](https://user-images.githubusercontent.com/56117150/165368905-4bdedbe9-d13b-40d1-b1c7-d456bde3ccfc.png)
 
 ## Experimental Setup 
-    We tested our ACL algorithm with other baselines on OpenAI Gym environment – CartPole-v1​
+    - We tested our ACL algorithm with other baselines on OpenAI Gym environment – CartPole-v1​
 
     ​
 
-    Proposed ACL algorithm with other baseline policies/algorithms including:​
+    - Proposed ACL algorithm with other baseline policies/algorithms including:​
 
-    Random Action Policy​
+    1. Random Action Policy​
 
-    Q-Learning​
+    2. Q-Learning​
 
-    Deep Q-Network​
-
-    ​
-
-    Since these are RL tasks, we compare the rewards the RL agent gets while performing/learning the task​
+    3. Deep Q-Network​
 
     ​
 
-    Automatic Curriculum Learning Agent Architectures:​
+    - Since these are RL tasks, we compare the rewards the RL agent gets while performing/learning the task​
+
+    ​
+
+    - Automatic Curriculum Learning Agent Architectures:​
 
     Student Agent: DNN with the architecture – I/p-FC(32)-FC(32)-O/p​
 
