@@ -115,11 +115,11 @@ DQN leverages experience replay as a stabilization mechanism. Experience replay 
 
 # Exerpimental Results: Drawbacks
 
--It is slow!
+- It is slow!
 
--The associated networks take long time to run for more complex environments like BipedalWalker
+- The associated networks take long time to run for more complex environments like BipedalWalker
 
--Sensitive to network depth
+- Sensitive to network depth
 Shallow networks take longer to train
 Deeper networks slows down the computation time
 
