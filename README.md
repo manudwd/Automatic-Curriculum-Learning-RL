@@ -112,7 +112,11 @@ DQN leverages experience replay as a stabilization mechanism. Experience replay 
 
 # Future Works:
 
-![image](https://user-images.githubusercontent.com/56117150/165372214-b5d4ffa4-0c6d-40e3-b367-c132aaa4d9a9.png)
+- We have three further (Taxi-v3, Bipedal Walker-v3, MountainCar-v0) environments from Open AI working on the existing algorithms (Q-Learning, DQN)
+
+- We'd like to explore these environments and fit them to ACL, we expect similarly successful results as we did from CartPole!
+
+- Explore other more efficient NN architectures that can work with more complex envs.
 
 
 ![image](https://user-images.githubusercontent.com/56117150/165372260-da93c683-f1ad-431f-8b31-98eb7c7b46f2.png)
