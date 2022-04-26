@@ -103,22 +103,21 @@ DQN leverages experience replay as a stabilization mechanism. Experience replay 
 
 ![image](https://user-images.githubusercontent.com/56117150/165371904-30d60689-1d8d-48cf-96d6-a8c834dab0eb.png)
 
-> As predicted, ACL makes the RL agent learn the task faster
-> DQN and Q-learning are established solutions for CartPole Algorithm
-They solve the problem eventually
-But slowly and take much more episodes for the same network size/algorithm computational load
-
-
-> Looking at the rewards at a later stage in the ACL algo.:
- -Student perfectly learns the task,
- -Teacher tries to randomize task allocation,
- -This promotes exploration, seeing the degraded performance, teacher quickly goes back to optimal strategy
-
-> Exploration is important because it counters forgetting!
 
 ![image](https://user-images.githubusercontent.com/56117150/165371739-ce9a76b3-0128-47fd-9a66-0059af71bcf9.png)
 
 # Exerpimental Results: Drawbacks
 
 ![image](https://user-images.githubusercontent.com/56117150/165372078-7453dc74-241d-4564-b3b1-748e0ada9cf4.png)
+
+# Future Works:
+
+![image](https://user-images.githubusercontent.com/56117150/165372214-b5d4ffa4-0c6d-40e3-b367-c132aaa4d9a9.png)
+
+
+![image](https://user-images.githubusercontent.com/56117150/165372260-da93c683-f1ad-431f-8b31-98eb7c7b46f2.png)
+![image](https://user-images.githubusercontent.com/56117150/165372277-22e8efe9-800f-4ff8-8aae-9423fc59e3ba.png)
+![image](https://user-images.githubusercontent.com/56117150/165372289-99c92900-7d8f-4b93-9d84-05fc415c2c3b.png)
+
+
 
