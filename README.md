@@ -22,6 +22,20 @@ The notebooks listed here implement the baseline approachs including:
 
 # Automatic Curriculum Learning is implemented for **CartPole-v0**
 
+![image](https://user-images.githubusercontent.com/56117150/165371010-470d76e9-68e8-4f59-a6a4-0b1c79ad70a1.png)
+
+
+1. Student network: receives a task, and is expected to interact in the environment and learn how to solve it.
+
+2. Teacher network: proposes tasks by observing the progress signal of the student and sampling new tasks that maximise this signal.
+
+### **STUDENT**
+
+The student can be any classical Deep Reinforcement Learning agent, as from its point of view, it is only expected to solve tasks provided to it. It will be trained end-to-end, using the extrinsic reward function of the task being tackled.
+
+### **TEACHER**
+
+The teacher should be able to follow the student progress, and propose tasks in a sequence which overall should lead to the student solving complex tasks it couldn’t before. It effectively needs to explore the space of tasks effectively, as depending on the expertise of the student the same task can be valuable or useless.
     ## Algorithm steps:
 
     1. We’ll call the output of the teacher agent as improvement
@@ -65,4 +79,19 @@ The notebooks listed here implement the baseline approachs including:
 
     Activation: ReLU (tanh led to long slow training)
     
+# Baselines 
 
+# Q-learning
+A model-free reinforcement learning algorithm to learn the value of an action in a particular state. It can handle problems with stochastic transitions and rewards without requiring adaptations.
+
+![image](https://user-images.githubusercontent.com/56117150/165370721-4e1dafb8-2725-4dca-9c17-8bc429b45ebd.png)
+
+For any finite Markov decision process (FMDP), Q-learning finds an optimal policy in the sense of maximizing the expected value of the total reward over any and all successive steps, starting from the current state.
+
+# Deep-Q Learning 
+
+Uses neural networks to approximate Q-value functions. The state is given as input and Q-value of all possible. By maintaining the memory of the experiences, and an initial policy π.
+
+![image](https://user-images.githubusercontent.com/56117150/165370794-c74ff25d-8dc2-42a5-8ce0-49a38ca94fc2.png)
+
+DQN leverages experience replay as a stabilization mechanism. Experience replay collects a buffer of historical transition models and randomly inserts the transition values during the Q-update function because we want to replicate the Temporal Difference target operation using our neural network rather than using a Q-table
