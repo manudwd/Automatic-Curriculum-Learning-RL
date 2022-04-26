@@ -15,4 +15,12 @@ Gym OpenAI provides multiple test-bed environments with real world applications 
 2. Taxi-v3
 3. BipedalWalker-v3
 
+The notebooks listed here implement the baseline approachs including:
+1. Random Action Approach
+2. Q-Learning 
+3. Deep Q-Learning
+
+# Automatic Curriculum Learning is implemented for **CartPole-v0**
+
+
 ![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
