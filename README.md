@@ -123,7 +123,7 @@ DQN leverages experience replay as a stabilization mechanism. Experience replay 
 Shallow networks take longer to train
 Deeper networks slows down the computation time
 
--Exploration is a necessary evil (increases convergence time as per expected solution)
+- Exploration is a necessary evil (increases convergence time as per expected solution)
 
 # Future Works:
 
