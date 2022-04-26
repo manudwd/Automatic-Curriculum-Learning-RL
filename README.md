@@ -50,7 +50,7 @@ The teacher should be able to follow the student progress, and propose tasks in 
 
     6. Taking this as the target, student agent’s learning is improved!
     
-    ![image](https://user-images.githubusercontent.com/56117150/165368905-4bdedbe9-d13b-40d1-b1c7-d456bde3ccfc.png)
+![image](https://user-images.githubusercontent.com/56117150/165368905-4bdedbe9-d13b-40d1-b1c7-d456bde3ccfc.png)
 
 ## Experimental Setup 
     - We tested our ACL algorithm with other baselines on OpenAI Gym environment – CartPole-v1​
