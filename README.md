@@ -95,3 +95,25 @@ Uses neural networks to approximate Q-value functions. The state is given as inp
 ![image](https://user-images.githubusercontent.com/56117150/165370794-c74ff25d-8dc2-42a5-8ce0-49a38ca94fc2.png)
 
 DQN leverages experience replay as a stabilization mechanism. Experience replay collects a buffer of historical transition models and randomly inserts the transition values during the Q-update function because we want to replicate the Temporal Difference target operation using our neural network rather than using a Q-table
+
+# Experimental Results: Rewards on Cartpole-v0-v1
+
+![image](https://user-images.githubusercontent.com/56117150/165371702-2b80f6d4-d212-43ba-a33d-a0bb992661d1.png)
+
+
+![image](https://user-images.githubusercontent.com/56117150/165371904-30d60689-1d8d-48cf-96d6-a8c834dab0eb.png)
+
+> As predicted, ACL makes the RL agent learn the task faster
+> DQN and Q-learning are established solutions for CartPole Algorithm
+They solve the problem eventually
+But slowly and take much more episodes for the same network size/algorithm computational load
+
+
+> Looking at the rewards at a later stage in the ACL algo.:
+ -Student perfectly learns the task,
+ -Teacher tries to randomize task allocation,
+ -This promotes exploration, seeing the degraded performance, teacher quickly goes back to optimal strategy
+
+> Exploration is important because it counters forgetting!
+
+![image](https://user-images.githubusercontent.com/56117150/165371739-ce9a76b3-0128-47fd-9a66-0059af71bcf9.png)
