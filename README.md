@@ -117,3 +117,8 @@ But slowly and take much more episodes for the same network size/algorithm compu
 > Exploration is important because it counters forgetting!
 
 ![image](https://user-images.githubusercontent.com/56117150/165371739-ce9a76b3-0128-47fd-9a66-0059af71bcf9.png)
+
+# Exerpimental Results: Drawbacks
+
+![image](https://user-images.githubusercontent.com/56117150/165372078-7453dc74-241d-4564-b3b1-748e0ada9cf4.png)
+
