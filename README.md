@@ -1,4 +1,12 @@
-# Reinforcement-Learning
+# AUTOMATED CURRICULUM LEARNING FOR REINFORCEMENT LEARNING APPLICATIONS
+![image](https://user-images.githubusercontent.com/56117150/165372557-edf6840a-bb45-4eb4-b257-917044503609.png)
+
+![image](https://user-images.githubusercontent.com/56117150/165372580-03f0bd30-feeb-4c58-a9b9-24aee7bcafa0.png)
+
+![image](https://user-images.githubusercontent.com/56117150/165372596-3b2551ef-23dd-4d9f-b2ec-7ab212877eed.png)
+
+![image](https://user-images.githubusercontent.com/56117150/165372615-09d4734a-e490-40c7-9bcd-a281c2857330.png)
+
  RL paradigms explored with OpenAI
 
 # Dependencies 
