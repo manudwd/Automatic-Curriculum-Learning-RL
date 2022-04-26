@@ -35,4 +35,34 @@ The notebooks listed here implement the baseline approachs including:
     5. This reinforcement signal helps student agent learn what task to perform next task
 
     6. Taking this as the target, student agent’s learning is improved!
-![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
+    
+    ![image](https://user-images.githubusercontent.com/56117150/165368905-4bdedbe9-d13b-40d1-b1c7-d456bde3ccfc.png)
+
+## Experimental Setup 
+    We tested our ACL algorithm with other baselines on OpenAI Gym environment – CartPole-v1​
+
+    ​
+
+    Proposed ACL algorithm with other baseline policies/algorithms including:​
+
+    Random Action Policy​
+
+    Q-Learning​
+
+    Deep Q-Network​
+
+    ​
+
+    Since these are RL tasks, we compare the rewards the RL agent gets while performing/learning the task​
+
+    ​
+
+    Automatic Curriculum Learning Agent Architectures:​
+
+    Student Agent: DNN with the architecture – I/p-FC(32)-FC(32)-O/p​
+
+    Teacher Agent: DNN with the architecture – I/p-FC(32)-FC(32)-O/p​
+
+    Activation: ReLU (tanh led to long slow training)
+    
+
