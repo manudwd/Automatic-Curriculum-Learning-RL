@@ -22,5 +22,17 @@ The notebooks listed here implement the baseline approachs including:
 
 # Automatic Curriculum Learning is implemented for **CartPole-v0**
 
+    ## Algorithm steps:
 
+    1. We’ll call the output of the teacher agent as improvement
+
+    2. Improvement basically measures the direction that the student agent is taking
+
+    3. Embedded in it is the measure of quality of the action taken by the student
+
+    4. Improvement is then used to calculate the reinforcement signal for the student agent
+
+    5. This reinforcement signal helps student agent learn what task to perform next task
+
+    6. Taking this as the target, student agent’s learning is improved!
 ![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
