@@ -1,11 +1,9 @@
 # AUTOMATED CURRICULUM LEARNING FOR REINFORCEMENT LEARNING APPLICATIONS
-![image](https://user-images.githubusercontent.com/56117150/165372557-edf6840a-bb45-4eb4-b257-917044503609.png)
 
-![image](https://user-images.githubusercontent.com/56117150/165372580-03f0bd30-feeb-4c58-a9b9-24aee7bcafa0.png)
-
-![image](https://user-images.githubusercontent.com/56117150/165372596-3b2551ef-23dd-4d9f-b2ec-7ab212877eed.png)
-
-![image](https://user-images.githubusercontent.com/56117150/165372615-09d4734a-e490-40c7-9bcd-a281c2857330.png)
+![Cartpole](https://user-images.githubusercontent.com/56117150/165373260-3ee1b77f-51fc-4bd0-a2dd-caf79c0e0c9a.gif)
+![walker](https://user-images.githubusercontent.com/56117150/165372944-d0418a32-e2d1-4478-8059-ee1dc2a4577e.gif)
+![taxi](https://user-images.githubusercontent.com/56117150/165372960-d1cb3315-4b71-4190-a92b-a70a876ec880.gif)
+![Mountaincar](https://user-images.githubusercontent.com/56117150/165373163-c3b30e77-3ecf-4e8a-b9f4-7bfd85153fb4.gif)
 
  RL paradigms explored with OpenAI
 
